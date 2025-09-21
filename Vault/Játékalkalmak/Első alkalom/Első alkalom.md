@@ -1,4 +1,4 @@
-_Az este lassan leszáll a pufferzóna egyik jelentéktelennek tűnő falujára, amelyet a helyiek egyszerűen csak „Szélcsendnek” hívnak. A környező földeken juhok bégetnek, a messzeségben pedig a sötét erdő körvonalai rajzolódnak ki a holdsápadt fényben. Szélcsend nem különleges hely – talán épp ezért ideális búvóhely a múlt háborúi és a birodalom zaklatása elől menekülőknek. Emberek és elfek egyaránt élnek itt, bár tekintetükből nem tűnik el a gyanakvás árnya._
+_Az este lassan leszáll a pufferzóna egyik jelentéktelennek tűnő falujára, amelyet a helyiek egyszerűen csak „Szélcsendnek” hívnak. A környező földeken juhok bégetnek, a messzeségben pedig a sötét erdő körvonalai rajzolódnak ki a holdsápadt fényben. Szélcsend nem különleges hely – talán épp ezért ideális búvóhely a múlt háborúi és a birodalom zaklatása elől menekülőknek. Emberek és egy marék elf egyaránt élnek itt, bár tekintetükből nem tűnik el a gyanakvás árnya._
 
 _Az egyetlen kocsma, a „Repedt Korsó”, már megtelt a vándorokkal és falusiakkal. A levegőben főtt hús és sörszag keveredik, a sarokban egy ember énekel, bár dallama inkább szomorú, mint vidám. A helyiek halkan suttognak, miközben lopva méregetnek titeket – idegeneket, akik ritkán vetődnek erre a vidékre._
 
@@ -10,7 +10,7 @@ Baszakodnak majd:
 
 Ezelőtt perception check a szemfülesebbeknek.
 
-_…ám ekkor éles kiáltások hasítanak az éjszakába. Kint az utcán sikolyok hallatszanak, siető léptek dübörögnek, majd egy rekedt ordítás: „Fussatok! Jönnek!”_
+_…ám ekkor éles kiáltások hasítanak az éjszakába, amilyen gyorsan felüvöltött a hang, olyan gyorsan el is hallgatott.”_
 
 _A kocsmában döbbent csend áll be. A következő pillanatban valami nehéz tárgy csapódik az ajtónak, majd az kitörik a sarkaiból. Alacsony, görnyedt alakok rontanak be a helyiségbe, sárga szemük vadul villog a fáklyafényben. Zöldes bőrük mocskos, rozsdás kardokat és görbe késeket szorongatnak. Mintha öreganyátok rémisztgető meséiből elvenítették meg őket. Goblinok.
 
@@ -26,35 +26,37 @@ _Az egyik dühödten az asztalra ugrik, hörögve suhint a levegőbe, míg egy m
 
 ---
 
-## 👹 Ellenségek
+## Ellenségek
 
 ### 4 Goblin portyázó
+| ERŐ | ÜGY | SZÍV | INT | WIS | CHA |
+| --- | --- | ---- | --- | --- | --- |
+| 8   | 14  | 10   | 10  | 8   | 8   |
 
 - **HP:** 7 (2d6)
-- **AC:** 15 (bőrvért + pajzs)
-- **Fegyver:** görbe kard (1d6+2 vágósebzés), rövid íj (1d6+2 sebzés, 24/96 láb hatótáv)
+- **VF:** 15 (bőrvért + pajzs)
+- **Fegyver:** +4 görbe kard (1d6+2 vágósebzés), +5 rövid íj(1d6+2 szúrósebzés, 24/96 láb hatótáv)
 - **Különleges:** „Nimble Escape” – minden körben használhatja a **Disengage** vagy **Hide** akciót bónusz akcióként.
 
-### 1 Goblin vezér (kissé erősebb)
+### 1 Goblin vezér
+| ERŐ | ÜGY | SZÍV | INT | WIS | CHA |
+| --- | --- | ---- | --- | --- | --- |
+| 10  | 15  | 10   | 10  | 8   | 10  |
 
-- **HP:** 18 (4d6+4)
-- **AC:** 16 (láncing, pajzs)
-- **Fegyver:** görbe kard (1d6+2), rövid íj (1d6+2)
+- **HP:** 21 (4d6+4)
+- **AC:** 17 (láncing, pajzs)
+- **Fegyver:** +4 görbe kard (1d6+2), rövid íj (1d6+2)
 - **Különleges:**
-    - _Parancsszó_ – egyszer harc közben: kiáltással adhat parancsot 2 goblinnak, akik reakcióként **azonnal mozoghatnak** akár 6 métert.
-    - _Kegyetlen suhintás_ – ha először talál el valakit a karddal, plusz 1d4 sebzést okoz.
-## 🎭 Dinamika
+    - _Kegyetlen suhintás_ – ha előnnyel talál el valakit a karddal üthet mégegyszer.
+## Dinamika
 
 - A goblinok **először pánikot akarnak kelteni**: törnek-zúznak, ijesztgetnek.
 - A vezér célja, hogy **blokkolja a kijáratot**, így a falusiak ne tudjanak könnyen elmenekülni.
-- 1 goblin rögtön túszt is ejthet (egy falusi nyakához szegezi a kését), így taktikai döntést kell hozniuk a játékosoknak: mentsenek vagy támadjanak.
 ## Jutalom
-
 - 50 XP / goblin + 100 XP a vezérért → összesen **300 XP** a csapatnak.
 - Zsákmány:
-    - 1d6 arany a vezérnél.
-    - Egy **fura, törött térkép-darab**, ami egy későbbi kaland szála lehet.
-    - A falusiak hálája → szabad szállás, étel, és információ arról, hogy a goblinok **valahonnan a közeli erdőből** támadtak.
+    - Egy **fura, törött térkép-darab**.
+    - A falusiak hálája → szabad szállás, étel, és információ arról, hogy a goblinok **valahonnan a közeli erdőből** támadtak. Full hp-ra feltöltődik mindenki.
 
 ---
 
@@ -62,17 +64,19 @@ A kocsma belsejében elcsendesedik minden. A földön vér és törmelék kevere
 
 Ekkor az ajtón, és egy széles vállú férfi lép be. Vállán vadászszíj, oldalán hosszú íj lóg, csizmája sáros, mintha messziről jött volna. Észrevehetően liheg. Átható, szürke szemekkel mér végig benneteket, majd a földön fekvő goblinokra pillant.
 
-– **"Ezt szépen elintéztétek."** – mondja rekedtes hangon, miközben a hullák közé rúg egyet. – **"Nem hittem volna, hogy megelevenednek a gyermekkori rémtörténeteim, de mégis itt vannak.** Megdörzsöli a szemét mintha nem hinne neki.
+– Rátok néz majd a következőt mondja rekedtes, ziláló hangon: **"Ezt szépen elintéztétek."** – , miközben egy goblin hullájába rúg egyet. Megdörzsöli a szemét mintha káprázna a szeme. – **"Nem hittem volna, hogy megelevenednek a gyermekkori rémtörténeteim, de mégis itt vannak.** 
 
-A csapláros felé int, aki azonnal bólogatni kezd, majd odasúgja: – "Ő **[[Edran]]**, a vadász."
+A kocsmáros felé int, aki azonnal bólogatni kezd, majd mondja.: – "[[Edran]] hála istennek, hogy itt vagy."
 
-Közelebb lép, halkan, de határozottan folytatja:
+Majd kérdően néz a hullákra és a pusztításra, ajkán szomorú mosoly. - "Legalább csak ennyi veszteség ért minket."
 
-– **„Tudom, merről jöttek. Van egy táboruk az erdő mélyén, és nem csak maguktól támadnak – valaki irányítja őket. Segítenetek kell nekem felkutatni ezt a helyet.”**
+Közelebb lép hozzátok, majd halkan, de határozottan folytatja:
+
+– **„Tudom az általános irányt merről jöttek. Gondolom van egy táboruk valahol az erdő mélyén. A nyomokat követve el is tudok oda jutni. Segítenetek kell nekem felkutatni ezt a helyet, mielőtt még egy támadás érné a falut.”**
 
 Egy pillanatra körbenéz, majd még halkabbra fogja a hangját:
 
-– **„Az információt el kell vinnünk a helyőrségnek. Ha a goblinok megerősödnek, az egész környék lángba borul. Egyedül nem tudok átjutni a táborukon… de ti elég erősnek tűntök.”**
+– **„Az információt el kell vinnünk a helyőrségnek. Ha nem ütünk rajtuk szétszélednek és az egész környék lángba borul. Egyedül nem biztos, hogy el tudok jutni a táborukhoz… de ti elég erősnek tűntök. Halkan... Nehogy kitörjön mégnagyobb pánik. Egyelőre örülnek az emberek, de mi lett volna ha nem vagytok itt?”**
 
 [[Edran]] szeme megvillan, és várakozón néz rátok.
 
@@ -106,7 +110,7 @@ Durva bőrvértbe bújt, vad kinézetű alakok vetik magukat elétek. Arcuk ideg
 
 – **„Ha a vezérüket kivesszük, a többiek szétesnek. A ti erőtök kell, hogy áttörjük őket.”**
 
-Egyikük kiált valamit – a hang mély, nyers, ismeretlen szótagokból áll, mintha a szél által hozott torz dallam lenne:  
+Egyikük kiált valamit – a hang mély, nyers, ismeretlen szótagokból áll, mintha a szél ha lenne által hozott torz dallam lenne, ha lenne itt szél:  
 – **„Grakth! Nuv’reth koran!”**
 
 A többiek azonnal felelnek, majd vad üvöltéssel rontanak előre. A szavak értelme rejtve marad, de a szándék világos: vért akarnak.
@@ -161,11 +165,11 @@ Edran mély levegőt vesz, majd lassan megrázza a fejét:
 
 – **„Ez… ez nem lehet igaz. Ezek nem innen valók.”** – lábával meglöki az egyik holttestet, majd lehajol, hogy jobban szemügyre vegye a furcsa fegyvert és a szokatlan érmét. – **„Nézzétek! Idegen kovácsmunka, idegen szavak… ez a világ nem ismeri őket.”**
 
-Egy pillanatra elhallgat, tekintete nyugtalan, mintha valóban meg lenne rázva:
+Egy pillanatra elhallgat, tekintete nyugtalan:
 
-Ez rosszabb, mint gondoltam. Ha nem állítjuk meg a goblinokat és azt, aki mozgatja őket, az egész Föderáció lángba borulhat.
+Ez rosszabb, mint gondoltam. Ha nem állítjuk meg a goblinokat és azt, aki irányítja őket, az egész Föderáció lángba borulhat.
 
-– **„Ez rosszabb, mint gondoltam. Ha nem állítjuk meg a goblinokat és azt, aki mozgatja őket, az egész Föderáció lángba borulhat.”**
+– **„Ez rosszabb, mint gondoltam. Ha nem állítjuk meg a goblinokat és azt, aki irányítja őket, az egész Föderáció lángba borulhat.”**
 Hirtelen beléfagy a szó majd elsötétül az arca, az arcáról a rémület szűrődik ki.
 
 Edran megtörli homlokát, majd csendben leül egy fatörzsre. A tábortűz halvány fényében a hősökre pillant, és lassan megszólal:
